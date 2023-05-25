@@ -1,7 +1,7 @@
 module.exports = {
   ci: {
     collect: {
-      url: ['http://localhost:8080/'],
+      url: ['https://pdhenrique.github.io/lhciProj/build'],
       numberOfRuns: 1
     },
     upload: {
