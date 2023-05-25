@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
 
-  window.alert('Leia o README.md   :) ')
+
 
   return (
     <div className='Container'>
