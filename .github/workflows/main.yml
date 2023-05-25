@@ -26,3 +26,5 @@ jobs:
       with:
         name: lhci-reports
         path: ./lhci_reports/
+    - env:
+      LHCI_GITHUB_APP_TOKEN: ${{secrets.LHCI_GITHUB_APP_TOKEN}}
