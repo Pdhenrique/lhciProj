@@ -13,12 +13,16 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "@lhci/cli": "^0.8.1"
+  },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start && http-server",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test && lhci autorun",
+    "test": "react-scripts test",
+    "lhci": "lhci autorun",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
