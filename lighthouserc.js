@@ -5,8 +5,7 @@ module.exports = {
       numberOfRuns: 1
     },
     upload: {
-      target: 'temporary-public-storage',
-      outputDir: './lhci_reports'
+      target:'temporary-public-storage'
     }
   }
 };
