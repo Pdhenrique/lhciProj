@@ -1,12 +1,12 @@
 module.exports = {
-    ci: {
-      collect: {
-          url: ['http://localhost:3000/'],
-          numberOfRuns: 1
-      },
-      upload: {
-        target: 'filesystem',
-        outputDir: 'reports'
-      }
+  ci: {
+    collect: {
+      url: ['http://localhost:8080/'],
+      numberOfRuns: 1
+    },
+    upload: {
+      target: 'filesystem',
+      outputDir: './lhci_reports'
     }
-  };
+  }
+};
