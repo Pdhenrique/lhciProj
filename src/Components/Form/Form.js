@@ -3,6 +3,8 @@ import Button from '../Button/Button'
 
 
 function Form() {
+    
+    setTimeout(console.log('hello'), 1000)
 
     return (
 
@@ -16,7 +18,7 @@ function Form() {
                         <input
                             
                             type="text"
-                            placeholder="CPF" />
+                             />
 
 
                     </div>
@@ -26,7 +28,7 @@ function Form() {
                 <div className='ExternContainerToken'>
                     <div className="ContainerInputToken">
                         <div className="Image">🔍</div>
-                        <input type="text" placeholder="Token" />
+                        <input type="text"  />
                     </div>
                 </div>
 
