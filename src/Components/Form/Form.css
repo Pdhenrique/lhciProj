@@ -1,0 +1,149 @@
+.top{
+  
+    display: block;
+    
+    background-color: #eeeeee;
+    color: rgb(21, 21, 21);
+    min-height: 20vh;
+    border-bottom: 1px solid rgb(181, 181, 181);
+    
+}
+
+
+
+  /*------------Bloco input CONSULTA------------*/
+
+.ExternContainerInput{
+    padding-top: 25px;
+    justify-content: center;
+    display: flex;
+    
+    
+}
+
+.ContainerInput{ 
+    height: 20px;
+    width: 30vh;
+    border: 2px solid #FE5E3A;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff99;
+    display: flex;
+
+    
+
+}
+.ContainerInput:hover{
+    background-color: #dadada99;
+}
+
+.ContainerInput .image{
+    margin-right: 5px;
+}
+.ContainerInput input{
+    margin-left:10px ;
+    width: 100%;
+    border: 0px;
+    background: transparent;
+    outline: 0;
+    color: #FE5E3A;
+    font-size: 18px;
+    
+}
+
+/*------------Bloco Input TOKEN------------*/
+
+
+.ExternContainerToken{
+display: flex;
+justify-content: center;
+
+}
+
+.ContainerInputToken{ 
+    height: 20px;
+    width: 30vh;
+    border: 2px solid #FE5E3A;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px ;
+    background-color: #ffffff99;
+    display: flex;
+
+    
+    
+}
+.ContainerInputToken:hover{
+    background-color: #dadada99;
+}
+
+.ContainerInputToken .image{
+    margin-right: 5px;
+}
+
+.ContainerInputToken input{
+    margin-left:10px ;
+    border: 0px;
+    background: transparent;
+    outline: 0;
+    color: #FE5E3A;
+    font-size: 18px;
+    width: 100%;
+}
+
+/* -----------BOTÂO CONSULTA----------- */
+
+
+.containerConsult{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+/* --------------BlOCO RESULTADO------------ */
+
+  .ExternContainerR{
+    margin-right: 25px;
+    
+    
+   }
+   
+   .ContainerResult{
+    
+     display: flex;
+     font-family:'arial';
+     font-size: 18px;
+     color:#ae4e39;
+     font-weight: bold;
+     flex-direction: column;
+     margin-top: 10;
+     
+     
+   }
+
+   .ContainerResult p {
+        margin: 15px;
+        margin-left: -5px;
+        
+
+        border-bottom: 1px solid #5f5d5d99;
+        
+        text-align: center;
+   }
+   
+   .mid2{
+   
+     padding-left: 15px;
+     margin: 5% 0 0 ;
+     border-radius: 4px;  
+     min-width: 50vh;
+     min-height: 300px;
+     height: 600px;
+     
+     background-color: rgb(203, 203, 203);
+     
+   }
+   

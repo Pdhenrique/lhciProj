@@ -1,0 +1,49 @@
+*{
+  margin:0;
+  padding:0;
+  
+}
+
+.Container{
+  background-color:#36444C ;
+  color:#ffffff;
+  min-height: 100vh;
+  
+}
+
+.Area{
+  
+  background-color: #ffffff;
+  min-height: 100vh;
+  margin: auto;
+  max-width: 1000px;
+  border: 1px solid black;
+}
+
+.Main{
+ 
+  background-color: #f3f3f3;
+  color: rgb(21, 21, 21);
+  min-height: 100vh;
+}
+
+
+.FormResult{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Footer{
+  display: flex;
+    background-color: #ff4b23;
+    margin:0;
+    padding: 0;
+    color:#e2e2e2;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+
+#pFooter{
+  color:#030303;
+}
