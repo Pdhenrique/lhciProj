@@ -1,0 +1,58 @@
+[
+  {
+    "name": "auditRan",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": " performance",
+    "auditId": "categories",
+    "level": "error",
+    "url": "https://pdhenrique.github.io/lhciProj/build/"
+  },
+  {
+    "name": "auditRan",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": " accessibility",
+    "auditId": "categories",
+    "level": "error",
+    "url": "https://pdhenrique.github.io/lhciProj/build/"
+  },
+  {
+    "name": "auditRan",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": " best-pratices",
+    "auditId": "categories",
+    "level": "error",
+    "url": "https://pdhenrique.github.io/lhciProj/build/"
+  },
+  {
+    "name": "auditRan",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": " seo",
+    "auditId": "categories",
+    "level": "error",
+    "url": "https://pdhenrique.github.io/lhciProj/build/"
+  }
+]

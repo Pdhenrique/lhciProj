@@ -19,12 +19,9 @@ jobs:
       run: npm run build
 
     - name: Run Lighthouse CI
-      run: npm run lhci
-    
-    # - name: Archive Lighthouse CI reports
-    #   uses: actions/upload-artifact@v2
-    #   with:
-    #     name: lhci-reports
-    #     path: ./lhci_reports/
+      run: | 
+        npm run lhci
+        npx lighthouse https://pdhenrique.github.io/lhciProj/build --score=90--quiet
+     
       env:
         LHCI_GITHUB_APP_TOKEN: ${{secrets.LHCI_GITHUB_APP_TOKEN}}
