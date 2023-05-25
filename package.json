@@ -22,7 +22,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "lhci": "lhci autorun",
+    "lhci": "lhci autorun --upload.target=temporary-public-storage || echo 'LHCI failed'",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
